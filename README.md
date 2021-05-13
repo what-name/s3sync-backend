@@ -27,7 +27,7 @@ After the backend has been deployed, you need to create a pair of Access & Secre
 1. Go to the AWS console
 2. Go to IAM
 3. Click on Users in the left panel
-4. Click on the user that was just created, named '<xyz>-backup'
+4. Click on the user that was just created, named '...-backup'
 5. Click the "Security Credentials" tab
 6. Create a pair of Access Keys (make sure to save it, it's only displayed once)
 
