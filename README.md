@@ -8,7 +8,7 @@ S3 Bucket | `<project-name>-cloud-backup` | A versioned bucket.. Lifecycle polic
 IAM User | `<project-name>-backup` | Has a pair of access and secret keys [manually] that s3sync uses for backup. The attached inline policy gives fine tuned access to this bucket. It also has access to the KMS key.
 
 ## Deploy
-- Make sure you're using [Terraform](https://www.terraform.io/downloads.html) version `>=0.14.0` - `terraform --version`
+- Make sure you have Terraform [installed](https://www.terraform.io/downloads.html) - `terraform --version`
 - Make sure you have a pair of Access and Secret Keys in your terminal's env that can deploy resources to your target account - `aws sts get-caller-identity`
 
 ```
